@@ -1,0 +1,17 @@
+{
+  "name": "nicelog",
+  "version": "1.0.0",
+  "author": "LukiX29",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "created": "25.01.2022 00:21:37 CET",
+  "license": "LIX",
+  "packageManager": "pnpm@6.32.2",
+  "publishConfig": {
+    "main": "index.js",
+    "typings": "index.d.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.26"
+  }
+}
