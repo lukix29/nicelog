@@ -308,6 +308,8 @@ function NiceLog(con, options) {
 
          if(options.alternateBackground) bgSwitch = !bgSwitch;
 
+         if(!prefix.endsWith("\n")) prefix += "\n";
+
          write(key, prefix);
 
          //process.stdout.moveCursor(0, -1);
